@@ -1,0 +1,35 @@
+.Reservez {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding-top: 20px;
+    & .BouttonRrestaurants {
+        margin-top: 10px;
+        margin-bottom: 60px;
+        background-image: linear-gradient(#ff79da, #9356DC);
+        width: 230px;
+        height: 55px;
+        color: white;
+        border: none;
+        border-radius: 2rem;
+        box-shadow: 4px 8px 10px -3px grey;
+        font-size: 1rem;
+      }
+      .BouttonRrestaurants:hover {
+        transform: scale(1.02);
+        opacity: 0.9;
+        cursor:pointer;
+      }
+  }
+  
+  .ReservezMenu {
+    padding-top: 20px;
+  }
+  
+  .ReservezDecouvrez {
+    font-size: 1.1rem;
+    color: grey;
+  }
+  
+  
+  
+  

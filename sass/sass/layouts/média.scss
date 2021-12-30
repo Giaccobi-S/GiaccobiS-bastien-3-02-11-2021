@@ -1,0 +1,71 @@
+
+  
+
+@media(max-width: 1105px){
+    ol{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+  }
+ 
+  
+  @media(max-width: 975px){
+    .menus{
+      height: 1390px;
+     
+    }
+     .menus__carte{
+      display: grid;
+  grid-template-columns: 95%;
+  grid-template-rows: 15rem 15rem 15rem 15rem;
+  gap: 5rem;
+  margin-right: 2%;
+  
+    }
+    .imageR1{
+     
+      grid-column: 1;
+      grid-row: 1;
+       
+    }
+      
+    .imageR2{
+        grid-column: 1;
+        grid-row: 2; 
+      }
+    .imageR3{
+        grid-column: 1;
+        grid-row: 3;
+        
+      }
+      .imageR4{
+        grid-column: 1;
+        grid-row: 4;
+        
+        
+      }
+      
+  }
+ 
+   @media(max-width:1205px){
+    #page-resto-1 main{
+     
+flex-direction: column;
+
+    }
+    
+   }
+     
+   @media(min-width:1206px){
+    .entrées{
+      width: 33%;
+      
+    }
+    .plas{
+        width: 33%;
+    }
+    .desserts{
+        width: 33%;
+    }
+   }
+  

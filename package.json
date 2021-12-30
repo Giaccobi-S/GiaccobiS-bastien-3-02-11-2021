@@ -1,0 +1,27 @@
+{
+  "name": "giaccobis-bastien-3-02-11-2021",
+  "version": "1.0.0",
+  "description": "openclassroomp3",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:style.css",
+    "prefix": "postcss ./style.css --use autoprefixer -d ./GiaccobiS-bastien-3-02-11-2021/sass/prefixed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giaccobi-S/GiaccobiS-bastien-3-02-11-2021.git"
+  },
+  "author": "giaccobi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giaccobi-S/GiaccobiS-bastien-3-02-11-2021/issues"
+  },
+  "homepage": "https://github.com/Giaccobi-S/GiaccobiS-bastien-3-02-11-2021#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.43.4",
+    "sass-autoprefixer": "^1.0.1"
+  }
+}

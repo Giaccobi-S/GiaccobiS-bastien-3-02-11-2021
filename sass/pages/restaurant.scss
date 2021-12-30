@@ -1,0 +1,250 @@
+//@use "../sass/layouts/média.scss";
+#page-resto-1{
+
+
+    background-color:#f6f6f6;
+
+
+.banner img{
+   height: 45vh;
+   width: 100%;
+   object-fit: cover;
+   display: block;
+  
+}
+main{
+    
+    display:flex;
+    width: 100%;
+ justify-content: space-around;
+  
+    
+   
+
+}
+
+.entrées{
+  
+    overflow:hidden;
+    animation: apparition 1s;
+}
+
+.MRestaurant-1{
+    
+    margin-top: -2rem;
+    position: relative;
+    h2 {
+        font-family: "shrikhand" ,"sans-serif";
+        
+        padding: 2rem 2rem 0 1.5rem;
+        margin: 0;
+        background-color:#f6f6f6;
+        border-radius: 2rem 2rem 0 0;
+        
+    }
+    i{
+        font-size: 2rem;
+        position: absolute;
+        right: 2rem;
+        margin-top: -30px;
+      }
+      .fas {
+        color: transparent;
+        background-image: linear-gradient(#9356DC, #ff79da);
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: all 1500ms;
+      }
+      &:hover .fas{
+        opacity: 1;
+        transform: scale(1.2);
+        cursor: pointer;
+      }
+    }
+    .order1{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+     }
+     .order{
+        display:grid;
+        place-items:center;
+    }
+   .Boutton-commande-1{
+           
+    
+             margin-top: 40px;
+            margin-bottom: 60px;
+            background-image: linear-gradient(#ff79da, #9356DC);
+            width: 200px;
+            height: 55px;
+            color: white;
+            border: none;
+            border-radius: 2rem;
+            box-shadow: 4px 8px 10px -3px grey;
+            font-size: 1rem;
+            
+            
+           
+
+          &:hover {
+            transform: scale(1.02);
+            opacity: 0.9;
+            cursor:pointer;
+          }
+    }
+.Sligne{
+margin-left: 6%;
+color: gray;
+font-weight: normal;
+font-size: medium;
+
+}
+p{
+    color: gray;
+    font-size: 15px;
+   
+}
+
+.surligner{
+    border: 1.7px solid #99e2d0;
+    width: 40px;
+   margin-top: -11px;
+   margin-left: 6%;
+   background-color: #99e2d0;
+   
+}
+.prix-menu{
+    display: flex;
+    
+}
+.boutton-validé{
+    background-color: #99e2d0;
+    
+}
+.cachées{
+    overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.platsDiv{
+    @for $i from 6 through 1{
+        &:nth-child(#{$i}){
+            animation-delay: 200ms * $i;
+        }
+    }
+   display:flex;
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+    border-radius: 1rem;
+    max-width: 100%;
+    margin: 4%;
+    background-color: white;
+    position: relative;
+    box-shadow: 1px 2px 15px 1px rgb(221, 218, 218);
+   animation: apparition 2s;
+   animation-fill-mode: both;
+    & h4{
+        margin: 0;
+        padding: 0.5rem 0.5rem 0 1rem;
+        font-size: large;
+        overflow:hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+   }
+   & p{
+    margin: 0;
+    padding: 0.5rem 2rem 0.7rem 1rem;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+& .boutton-validé{
+   
+    height: 68px;
+border-radius: 0 1rem 1rem 0;
+width: 60px;
+opacity: 1;
+
+
+& i{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 35.5% 35.5% 35.5% 35.5%;
+    color:white;
+    font-size: 25px;
+    
+}
+}
+
+}
+
+ 
+.prix{
+    
+    font-weight: 900;
+    color: black;
+
+    }
+    
+
+header{
+    position:relative;
+    & .moovearrow{
+        position: absolute;
+       font-size: x-large;
+       display: flex;
+      text-align: center;
+      align-items: center;
+      height: 90%;
+      padding-left: 15%;
+    
+      
+    }
+}
+
+.mouvementPrix{
+    display: flex;
+    margin-left:auto;
+    align-items:flex-end;
+   margin-right:-4rem;
+   transition: margin-right 0.5s;
+   &:hover{
+       cursor:pointer;
+       margin-right:0;  
+       i{
+        animation: spin-boutton 0.5s;
+    }
+   }
+  
+}
+@keyframes spin-boutton {
+    0%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes apparition{
+    0%{
+        transform: translateY(0);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity:1;
+    }
+}
+footer p{
+    color: white !important;
+}
+
+}
