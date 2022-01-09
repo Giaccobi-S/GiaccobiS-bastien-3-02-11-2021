@@ -246,9 +246,9 @@ ol:hover {
   display: grid;
   grid-template-columns: 45% 45%;
   grid-template-rows: 15rem 15rem;
-  gap: 5rem;
+  gap: 6rem;
   margin-left: 2%;
-  margin-right: 2%;
+  margin-right: -1%;
 }
 
 .new {
@@ -271,7 +271,6 @@ ol:hover {
 
 footer {
   background-color: #353535;
-  margin-top: 2rem;
   padding-bottom: 1rem;
 }
 footer h3 {
@@ -525,7 +524,7 @@ footer p i {
     grid-template-columns: 95%;
     grid-template-rows: 15rem 15rem 15rem 15rem;
     gap: 5rem;
-    margin-right: 2%;
+    margin-right: -1%;
   }
 
   .imageR1 {
