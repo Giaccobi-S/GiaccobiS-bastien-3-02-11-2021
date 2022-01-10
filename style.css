@@ -479,11 +479,11 @@ footer p i {
   margin-right: -4rem;
   transition: margin-right 0.5s;
 }
-#page-resto-1 .mouvementPrix:hover {
+#page-resto-1 .platsDiv:hover .mouvementPrix {
   cursor: pointer;
   margin-right: 0;
 }
-#page-resto-1 .mouvementPrix:hover i {
+#page-resto-1 .platsDiv:hover .mouvementPrix i {
   animation: spin-boutton 0.5s;
 }
 @keyframes spin-boutton {
