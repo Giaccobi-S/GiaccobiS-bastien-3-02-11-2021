@@ -508,6 +508,12 @@ footer p i {
   color: white !important;
 }
 
+@media (max-width: 1150px) {
+  .menus__carte {
+    gap: 5rem;
+    margin-right: 0;
+  }
+}
 @media (max-width: 1105px) {
   ol {
     flex-direction: column;
@@ -524,7 +530,6 @@ footer p i {
     grid-template-columns: 95%;
     grid-template-rows: 15rem 15rem 15rem 15rem;
     gap: 5rem;
-    margin-right: -1%;
   }
 
   .imageR1 {
